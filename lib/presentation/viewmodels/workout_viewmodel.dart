@@ -234,7 +234,15 @@ class WorkoutViewModel extends ChangeNotifier {
     }
     imgRotation ??= InputImageRotation.rotation0deg;
 
-    final format = InputImageFormatValue.fromRawValue(image.format.raw);
+    InputImageFormat? format = InputImageFormatValue.fromRawValue(image.format.raw);
+    // Fallback robusto para evitar que retorne null por diferencias de fabricante en raw format
+    if (format == null) {
+      if (Platform.isAndroid) {
+        format = InputImageFormat.yuv_420_888;
+      } else if (Platform.isIOS) {
+        format = InputImageFormat.bgra8888;
+      }
+    }
     if (format == null) return null;
 
     final plane = image.planes.first;

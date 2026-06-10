@@ -66,5 +66,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>NeoCoach necesita acceso a la camara para realizar el analisis de pose y conteo de repeticiones en tiempo real.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>NeoCoach necesita acceso al microfono cuando se activa la camara para el stream.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>NeoCoach necesita acceso a tu galeria de fotos para permitirte seleccionar y subir videos de entrenamientos.</string>
 </dict>
 </plist>
