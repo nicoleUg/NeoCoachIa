@@ -1,0 +1,162 @@
+{
+    "squats": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 100.0,
+        "max_allowed_torso_angle": 45.0,
+        "is_decrease": true,
+        "primary_joint": "knee"
+    },
+    "pushups": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 105.0,
+        "min_hip_alignment_angle": 140.0,
+        "max_hip_alignment_angle": 200.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "bicep_curls": {
+        "range_min": 35.0,
+        "range_max": 180.0,
+        "target_angle": 65.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "bench_press": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 95.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "chest_fly_machine": {
+        "range_min": 20.0,
+        "range_max": 110.0,
+        "target_angle": 40.0,
+        "is_decrease": true,
+        "primary_joint": "abduction"
+    },
+    "deadlift": {
+        "range_min": 70.0,
+        "range_max": 180.0,
+        "target_angle": 105.0,
+        "max_allowed_torso_angle": 75.0,
+        "is_decrease": true,
+        "primary_joint": "hip"
+    },
+    "decline_bench_press": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 95.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "hammer_curl": {
+        "range_min": 35.0,
+        "range_max": 180.0,
+        "target_angle": 65.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "hip_thrust": {
+        "range_min": 80.0,
+        "range_max": 180.0,
+        "target_angle": 150.0,
+        "is_decrease": false,
+        "primary_joint": "hip"
+    },
+    "incline_bench_press": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 95.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "lat_pulldown": {
+        "range_min": 50.0,
+        "range_max": 180.0,
+        "target_angle": 85.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "lateral_raise": {
+        "range_min": 15.0,
+        "range_max": 110.0,
+        "target_angle": 75.0,
+        "is_decrease": false,
+        "primary_joint": "abduction"
+    },
+    "leg_extension": {
+        "range_min": 80.0,
+        "range_max": 180.0,
+        "target_angle": 150.0,
+        "is_decrease": false,
+        "primary_joint": "knee"
+    },
+    "leg_raises": {
+        "range_min": 70.0,
+        "range_max": 180.0,
+        "target_angle": 100.0,
+        "is_decrease": true,
+        "primary_joint": "hip"
+    },
+    "plank": {
+        "range_min": 150.0,
+        "range_max": 195.0,
+        "min_hip_alignment_angle": 150.0,
+        "max_hip_alignment_angle": 195.0,
+        "is_static": true,
+        "primary_joint": "hip"
+    },
+    "pull_up": {
+        "range_min": 50.0,
+        "range_max": 180.0,
+        "target_angle": 85.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "romanian_deadlift": {
+        "range_min": 70.0,
+        "range_max": 180.0,
+        "target_angle": 100.0,
+        "max_allowed_torso_angle": 75.0,
+        "is_decrease": true,
+        "primary_joint": "hip"
+    },
+    "russian_twist": {
+        "range_min": 80.0,
+        "range_max": 140.0,
+        "target_angle": 105.0,
+        "is_decrease": true,
+        "primary_joint": "hip"
+    },
+    "shoulder_press": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 145.0,
+        "is_decrease": false,
+        "primary_joint": "elbow"
+    },
+    "t_bar_row": {
+        "range_min": 50.0,
+        "range_max": 180.0,
+        "target_angle": 85.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    },
+    "tricep_pushdown": {
+        "range_min": 60.0,
+        "range_max": 180.0,
+        "target_angle": 145.0,
+        "is_decrease": false,
+        "primary_joint": "elbow"
+    },
+    "tricep_dips": {
+        "range_min": 70.0,
+        "range_max": 180.0,
+        "target_angle": 100.0,
+        "is_decrease": true,
+        "primary_joint": "elbow"
+    }
+}

@@ -1,0 +1,45 @@
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+lib/generated/
+/ios/Flutter/.last_build_id
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+
+# Android Studio and IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Visual Studio Code
+.vscode/
+
+# Python and Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output databases and caches
+/assets/exercise_profiles.json.tmp
